@@ -1,0 +1,2 @@
+Run papi on remote
+ssh bwd 'bash -s' < run_remote_api.sh

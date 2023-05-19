@@ -1,0 +1,25 @@
+{
+    "name": "bwd-common",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "satoshi": "node src/bots/satoshi_views.js",
+        "fake_sales": "node src/bots/fake_sales_adder.js",
+        "website": "node src/bots/website_views.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lyuskod/bwd-common.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lyuskod/bwd-common/issues"
+    },
+    "homepage": "https://github.com/lyuskod/bwd-common#readme",
+    "dependencies": {
+        "axios": "^1.4.0"
+    },
+    "type": "module"
+}

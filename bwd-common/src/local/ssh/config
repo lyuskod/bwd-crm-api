@@ -1,0 +1,5 @@
+Host bwd
+
+HostName 208.113.200.133
+User ubuntu
+IdentityFile ~/.ssh/bwd-api.pem

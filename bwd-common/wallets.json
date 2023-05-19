@@ -1,0 +1,60 @@
+{
+    "wallets": [
+        {
+            "address": "1BSmyTdYpsHA5JhLS9azGmVADuJRiLWE5Z",
+            "balance": 78.6,
+            "hints": 4,
+            "package": "wallet and hints",
+            "comments": "Known symbols count and ~50% part of password",
+            "satoshi": "https://satoshi-box.com/pay/CIP9pL"
+        },
+        {
+            "address": "1BiA2yvL3GWuGGVr7v1cGCbH6WPYvoG4tL",
+            "balance": 177.7,
+            "hints": 2,
+            "package": "wallet and hints",
+            "comments": "Known user nationality and password symbols count",
+            "satoshi": "https://satoshi-box.com/pay/CIPAEK"
+        },
+        {
+            "address": "1Gj2KiTy9SFtuFSJECmpePseYchhkU3gXQ",
+            "balance": 99.9,
+            "hints": 9,
+            "package": "wallet and hints",
+            "comments": "Password from wikipedia and topics where it can be found",
+            "satoshi": "https://satoshi-box.com/pay/CIPAk9"
+        },
+        {
+            "address": "14PEUoKuRB9Q7yfS94cRXh2XugsrBxbxAo",
+            "balance": 10.5,
+            "hints": 5,
+            "package": "wallet and hints",
+            "comments": "Known the password enging and possible variations",
+            "satoshi": "https://satoshi-box.com/pay/CIPBb1"
+        },
+        {
+            "address": "1F654t1HxrZtg7uhcXyZeFvRsyB8HCnBXJ",
+            "balance": 1.08,
+            "hints": 0,
+            "package": "wallet",
+            "comments": "-",
+            "satoshi": "https://satoshi-box.com/pay/CIPC6B"
+        },
+        {
+            "address": "1N8L17Z7D6bBCWkSKABDf2qqJNHT1R9fv7",
+            "balance": 2.2,
+            "hints": 0,
+            "package": "wallet",
+            "comments": "-",
+            "satoshi": "https://satoshi-box.com/pay/CIPCKF"
+        },
+        {
+            "address": "1JEsngBPtTs56qdx7UT3VzkusdmEBPAXCy",
+            "balance": 5.05,
+            "hints": 3,
+            "package": "wallet and hints",
+            "comments": "Maybe difficult to unlock",
+            "satoshi": "https://satoshi-box.com/pay/CIPCbc"
+        }
+    ]
+}
