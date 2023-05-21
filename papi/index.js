@@ -9,6 +9,7 @@ import dotenv from 'dotenv'
 import fs from 'fs'
 import { getWalletHash } from './scripts/getWalletHash.js'
 import ValidityHelper from './helpers/validity.js'
+import { getWalletAddress } from './scripts/getWalletAddress.js'
 dotenv.config()
 
 const db = mysql.createPool({
@@ -77,6 +78,18 @@ app.post(routes.getWalletValidityByWallet, (req, res) => {
         const audit = ValidityHelper.getValidity(filepath)
         // fs.unlinkSync(filepath)
         return res.status(200).send(audit)
+    })
+})
+
+app.post(routes.getWalletAddressByWallet, (req, res) => {
+    upload(req, res, (error) => {
+        if (error) {
+            return res.status(500).json(error)
+        }
+        const filepath = `wallets/${req.file.filename}`
+        const address = getWalletAddress(filepath)
+        // fs.unlinkSync(filepath)
+        return res.status(200).send(address)
     })
 })
 
