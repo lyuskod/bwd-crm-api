@@ -1,7 +1,7 @@
 import axios from 'axios'
 import sleep from './sleep.js'
 
-const viewsPerLinkRequire = 33
+const viewsPerLinkRequire = 47
 const timeBetweenViewsInMS = 0.5 * 1000
 const bwdPapiUrl = `https://api.buywalletdat.com/api/getAllWallets`
 const solWallCrackSatoshiLink = 'https://satoshi-box.com/pay/CIRpdZ'

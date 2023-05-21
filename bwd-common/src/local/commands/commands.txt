@@ -1,2 +1,5 @@
 Run papi on remote
 ssh bwd 'bash -s' < run_remote_api.sh
+
+Run check wallet on sale bot
+ssh bwd 'bash -s' < run_wallet_on_sale_bot.sh
