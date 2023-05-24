@@ -7,4 +7,4 @@ export bwd_papi_port=5050
 cd papi/
 
 npm install
-npm run start
+forever start index.js

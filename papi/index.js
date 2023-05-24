@@ -64,7 +64,7 @@ app.post(routes.getWalletHashByWallet, (req, res) => {
         }
         const filepath = `wallets/${req.file.filename}`
         const hash = getWalletHash(filepath)
-        // fs.unlinkSync(filepath)
+        fs.unlinkSync(filepath)
         return res.status(200).send(hash)
     })
 })
@@ -76,7 +76,7 @@ app.post(routes.getWalletValidityByWallet, (req, res) => {
         }
         const filepath = `wallets/${req.file.filename}`
         const audit = ValidityHelper.getValidity(filepath)
-        // fs.unlinkSync(filepath)
+        fs.unlinkSync(filepath)
         return res.status(200).send(audit)
     })
 })
@@ -88,7 +88,7 @@ app.post(routes.getWalletAddressByWallet, (req, res) => {
         }
         const filepath = `wallets/${req.file.filename}`
         const address = getWalletAddress(filepath)
-        // fs.unlinkSync(filepath)
+        fs.unlinkSync(filepath)
         return res.status(200).send(address)
     })
 })
